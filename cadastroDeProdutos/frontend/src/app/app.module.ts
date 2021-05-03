@@ -15,7 +15,10 @@ import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
-import { MuriCrudComponent } from './views/muri-crud/muri-crud.component'
+import { MuriCrudComponent } from './views/muri-crud/muri-crud.component';
+
+import { RedDirective } from './directives/red.directive';
+import { MuriLinkDirective } from './directives/muri-link.directive'
 
 
 @NgModule({
@@ -26,7 +29,9 @@ import { MuriCrudComponent } from './views/muri-crud/muri-crud.component'
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    MuriCrudComponent
+    MuriCrudComponent,
+    RedDirective,
+    MuriLinkDirective
   ],
   imports: [
     BrowserModule,
