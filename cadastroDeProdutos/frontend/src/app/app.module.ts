@@ -13,7 +13,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
-import {MatButtonModule} from '@angular/material/button'
+import {MatButtonModule} from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
@@ -44,6 +45,7 @@ import { MuriLinkDirective } from './directives/muri-link.directive';
     MatListModule,
     MatCardModule,
     MatButtonModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
