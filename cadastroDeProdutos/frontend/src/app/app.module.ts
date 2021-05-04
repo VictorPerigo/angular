@@ -19,6 +19,7 @@ import { MuriCrudComponent } from './views/muri-crud/muri-crud.component';
 
 import { RedDirective } from './directives/red.directive';
 import { MuriLinkDirective } from './directives/muri-link.directive';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { MuriLinkDirective } from './directives/muri-link.directive';
     ProductCrudComponent,
     MuriCrudComponent,
     RedDirective,
-    MuriLinkDirective  ],
+    MuriLinkDirective,
+    ProductCreateComponent  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
