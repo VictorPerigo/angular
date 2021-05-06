@@ -1,24 +1,10 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta Bic Preta",
-      "price": 5.89
-    },
-    {
-      "id": 22,
-      "name": "Notebookssss",
-      "price": 1200.89
-    },
-    {
-      "id": 3,
-      "name": "Sansung S20+",
-      "price": 5000
-    },
-    {
-      "name": "teste",
-      "price": "12",
-      "id": 23
+      "name": "Caneca Preta",
+      "price": "20.50",
+      "description": "caneca de café na cor marrom",
+      "id": 1
     }
   ]
 }

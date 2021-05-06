@@ -19,6 +19,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import {MatFormFieldModule} from '@angular/material/form-field'
 import {MatInputModule} from '@angular/material/input'
+import {MatTableModule} from '@angular/material/table';
 
 
 import { HomeComponent } from './views/home/home.component';
@@ -28,6 +29,10 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 
 import { RedDirective } from './directives/red.directive';
 import { MuriLinkDirective } from './directives/muri-link.directive';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
+import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 @NgModule({
@@ -40,7 +45,9 @@ import { MuriLinkDirective } from './directives/muri-link.directive';
     ProductCrudComponent,
     RedDirective,
     MuriLinkDirective,
-    ProductCreateComponent  ],
+    ProductCreateComponent,
+    ProductReadComponent,
+    ProductRead2Component  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -54,7 +61,10 @@ import { MuriLinkDirective } from './directives/muri-link.directive';
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
